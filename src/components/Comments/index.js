@@ -129,7 +129,7 @@ class Comments extends Component {
           </div>
           <hr className="line" />
           <p className="heading">
-            <span className="comments-count">{commentsList.lenth}</span>
+            <span className="comments-count">{commentsList.length}</span>
             Comments
           </p>
           <ul className="comments-list">{this.renderCommentsList()}</ul>
